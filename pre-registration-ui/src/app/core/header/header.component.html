@@ -24,10 +24,10 @@
       <header class="gov-header">
           <div class="container">
             <a *ngIf="!authService.isAuthenticated()" href="./" mat-list-item>
-              <img src="assets\malawi-logo.svg" alt="MOSIP logo" class="header--logo" style="max-height: 3rem"/>
+              <img src="assets\utopia-id-logo.png" alt="MOSIP logo" class="header--logo" style="max-height: 5rem"/>
             </a>
             <a *ngIf="authService.isAuthenticated()" (click)="onLogoClick()" mat-list-item>
-              <img src="assets\malawi-logo.svg" alt="MOSIP logo" class="header--logo" style="max-height: 2.5rem"/>
+              <img src="assets\utopia-id-logo.png" alt="MOSIP logo" class="header--logo" style="max-height: 3rem"/>
             </a>
 
           </div>

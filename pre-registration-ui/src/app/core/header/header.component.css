@@ -15,7 +15,7 @@
   top: 0;
   position: fixed;
   z-index: 999;
-  background-color: #ecf3f0;
+  background-color: #044979;
   border-color: #707070;
   border-width: 1px;
   overflow-x: hidden;
@@ -36,7 +36,7 @@
   flex: 1 1 auto;
 }
 .list-item > .mat-list-item {
-  color: #141313 !important;
+  color: #ffff !important;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
   text-decoration: none;
@@ -79,7 +79,7 @@
 
 .gov-header {
   background-color: #ecf3f0;
-  padding: 20px 0;
+  padding: 20px 10px;
   border-bottom: 6px solid #e5e5e5;
 }
 
